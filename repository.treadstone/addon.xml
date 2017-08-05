@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.treadstone" name="Operation Treadstone" version="1.08" provider-name="Bourne">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+	</requires>
+    <extension point="xbmc.addon.repository" name="TR3ADSTONE's SCI LEVEL-5 Repository">
+        <dir minversion="14.0.0">
+        	<info compressed="false">https://raw.githubusercontent.com/OperationTreadstone/Operation-Treadstone/master/treadstone-addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/OperationTreadstone/Operation-Treadstone/master/treadstone-addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/OperationTreadstone/Operation-Treadstone/tree/master/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">TR3ADSTONE's SCI LEVEL-5 Official Repository</summary>
+		<description lang="en">To enter this storage SCI Level 5 clearence is required by CIA Special Activities Devision (SAD) 
+			This storage provides 3th party additions which are running under Treadstone and Blackbriar Operations.</description>
+		<disclaimer lang="en">Operation Treadstone 71 does not host or share any content, nor are they affiliated with any of the content of providers.</disclaimer>
+		<platform>all</platform>
+			<assets>
+				<icon>resources/art/icon.png</icon>
+				<fanart>resources/art/fanart.jpg</fanart>
+				<screenshot>resources/screenshots/01.jpg</screenshot>
+				<screenshot>resources/screenshots/02.jpg</screenshot>
+				<screenshot>resources/screenshots/03.jpg</screenshot>
+			</assets>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+		<website>https://tr3adst.one</website>
+		<source>https://explorer.tr3adst.one</source>
+		<contact>https://www.facebook.com/groups/TR3ADSTONE</contact>
+		<news>SCI LEVEL-5 @TR3ADSTONE</news>
+    </extension>
+</addon>
