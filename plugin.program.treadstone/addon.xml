@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.treadstone" name="[B][COLOR ghostwhite]OPERATION TREADSTONE[/COLOR][/B]" version="0.0.16a" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
+<addon id="plugin.program.treadstone" name="[B][COLOR ghostwhite]OPERATION TREADSTONE[/COLOR][/B]" version="5.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
