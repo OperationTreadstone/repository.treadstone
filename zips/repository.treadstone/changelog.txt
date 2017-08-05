@@ -1,6 +1,0 @@
-###################################
-# TR3ADSTONE Repository (07-2017) #
-###################################
-
-- New Project
-- Backup Repository added
