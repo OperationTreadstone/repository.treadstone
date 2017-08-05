@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="repository.treadstone" name="[B][COLOR ghostwhite]Operation Treadstone[/COLOR][/B]" version="0.0.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
 	<extension point="xbmc.addon.repository" 
-		name="TR3ADSTONE's SCI LEVEL-5 Repository">
+		name="TREADSTONE's Add-on Repository">
         <dir minversion="14.0.0">
         	<info compressed="false">https://github.com/TR3ADSTONE/repository.treadstone/raw/master/treadstone-addons.xml</info>
         	<checksum>https://github.com/TR3ADSTONE/repository.treadstone/raw/master/treadstone-addons.xml.md5</checksum>
-        	<datadir zip="true">https://raw.github.com/TR3ADSTONE/repository.treadstone/master/zips</datadir>
+        	<datadir zip="true">https://raw.github.com/TR3ADSTONE/repository.treadstone/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
