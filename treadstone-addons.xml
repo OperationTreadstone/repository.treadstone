@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.treadstone" name="[B][COLOR ghostwhite]TREADSTONE[/COLOR][/B]" version="8.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
+<addon id="plugin.program.treadstone" name="[B][COLOR ghostwhite]TREADSTONE[/COLOR][/B]" version="10.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -17,8 +17,8 @@
      </description>
     <platform>all</platform>
     <assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
+			<icon>resources/art/icon.png</icon>
+			<fanart>resources/art/fanart.jpg</fanart>
 			<screenshot>resources/art/screenshots/1.png </screenshot>
 			<screenshot>resources/art/screenshots/2.png </screenshot>
 			<screenshot>resources/art/screenshots/3.png </screenshot>
