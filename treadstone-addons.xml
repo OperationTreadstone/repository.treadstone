@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.treadstone" name="Operation Treadstone" version="08.2017" provider-name="Bourne">
+<addon id="plugin.program.treadstone" name="[B][COLOR ghostwhite]TREADSTONE[/COLOR][/B]" version="8.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,47 +9,169 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Operation Treadstone</summary>
-    <description lang="en">Operation Treadstone lets you access declassified custom builds created by Bourne.</description>
+    <summary lang="en">Operation: Treadstone 71</summary>
+    <description lang="en">To access the following files in here,  you need SCI-5 Clearance granted by CIA (SAD).
+    Special Activities Division can declassify this file to give you full access.
+
+     "I know who I am. I remember everything".
+     </description>
     <platform>all</platform>
+    <assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/art/screenshots/1.png </screenshot>
+			<screenshot>resources/art/screenshots/2.png </screenshot>
+			<screenshot>resources/art/screenshots/3.png </screenshot>
+			<screenshot>resources/art/screenshots/4.png </screenshot>
+			<screenshot>resources/art/screenshots/5.png </screenshot>
+		</assets>
   </extension>
 </addon>
 
-<addon id="repository.treadstone" name="[B][COLOR ghostwhite]Operation Treadstone[/COLOR][/B]" version="0.0.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
-	<extension point="xbmc.addon.repository"
-		name="TR3ADSTONE's SCI LEVEL-5 Repository">
-        <dir minversion="14.0.0">
-        	<info compressed="false">https://github.com/TR3ADSTONE/repository.treadstone/raw/master/treadstone-addons.xml</info>
-        	<checksum>https://github.com/TR3ADSTONE/repository.treadstone/raw/master/treadstone-addons.xml.md5</checksum>
-        	<datadir zip="true">https://raw.github.com/TR3ADSTONE/repository.treadstone/master/zips</datadir>
+<addon id="plugin.video.bob.unleashed" name="BoB Unleashed" version="1.0.0" provider-name="midraal">
+        <requires>
+                <import addon="xbmc.python" version="2.19.0" />
+                <import addon="script.module.nanscrapers" version="0.5.5" />
+                <import addon="script.module.python.koding.aio" version="0.9.6.6"/>
+                <import addon="script.module.liveresolver" version="0.1.47" />
+                <import addon="script.module.beautifulsoup" version="3.2.1"/>
+                <import addon="script.module.requests" version="2.9.1" />
+                <import addon="script.module.addon.common" version="2.0.0" />
+                <import addon="script.module.xmltodict" version="0.9.0"/>
+                <import addon="script.module.web-pdb" version="1.0"/>
+                <import addon="script.module.urlresolver" version="1.2.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+                <provides>audio video</provides>
+        </extension>
+        <extension point="xbmc.service" library="service.py" start="[login|startup]">
+	      </extension>
+        <extension point="xbmc.addon.metadata">
+          <summary lang="en">Reloaded</summary>
+          <description lang="en">Unleash Your Inner Bob</description>
+          <platform>all</platform>
+          <forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
+          <website>www.noobsandnerds.com</website>
+          <video_guide>y0w8zIH4lOY</video_guide>
+          <video_preview>WdKIzajiBBI</video_preview>
+        </extension>
+</addon>
+
+<addon id="plugin.video.bubbles" version="2.3.3" name="Bubbles" provider-name="Bubbles">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+
+		<import addon="repository.bubbles.1" version="2.0.0" />
+		<import addon="repository.bubbles.2" version="2.0.0" />
+		<import addon="repository.bubbles.3" version="2.0.0" />
+		<import addon="script.bubbles.resources" version="2.3.2" />
+		<import addon="script.bubbles.artwork" version="2.0.0" />
+		<import addon="script.bubbles.binaries" version="2.0.0" optional="true" />
+		<import addon="script.bubbles.icons" version="2.3.2" optional="true" />
+		<import addon="script.bubbles.skins" version="2.0.0" optional="true" />
+		<import addon="skin.bubbles.aeon.nox" version="1.1.3" optional="true" />
+
+		<import addon="script.module.urlresolver" version="3.0.29" />
+		<import addon="script.module.metahandler" version="2.9.0" />
+
+		<import addon="plugin.video.quasar" version="0.9.78" optional="true" />
+		<import addon="script.trakt" version="3.1.11" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="bubbles.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Stream Movies and Shows</summary>
+		<description lang="en">Stream movies, shows, documentaries, and short films from a variety of sources, such as torrents, usenet, file hosters, and video streaming services.</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, Premiumize, RealDebrid, EasyNews, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon, it simply searches public websites.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://bubbles4kodi.com</website>
+		<forum>https://www.tvaddons.ag/forums/bubbles-repository</forum>
+		<assets>
+			<icon>icon.png</icon> <!-- Do not change file name. Required by older Kodi versions. -->
+			<fanart>fanart.jpg</fanart> <!-- Do not change file name. Required by older Kodi versions. -->
+			<screenshot>resources/media/screenshots/screenshot01.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot02.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot03.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot04.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot05.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot06.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot07.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot08.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot09.jpg</screenshot>
+			<screenshot>resources/media/screenshots/screenshot10.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="plugin.video.covenant" version="1.1.4" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>[B]1.1.4[/B][CR]Fixed New Episodes List</news>
+	</extension>
+</addon>
+
+<addon id="repository.treadstone" name="[B][COLOR ghostwhite]TREADSTONE[/COLOR][/B]" version="8.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+	</requires>
+    <extension point="xbmc.addon.repository" name="TR3ADSTONE's SCI LEVEL-5 Repository">
+    	<dir minversion="14.0.0">
+        	<info compressed="false">https://raw.githubusercontent.com/TR3ADSTONE/repository.treadstone/master/treadstone-addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/TR3ADSTONE/repository.treadstone/master/treadstone-addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/TR3ADSTONE/repository.treadstone/raw/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">[COLOR ghostwhite]Treadstone[/COLOR]'s  Add-on Repository</summary>
-        <summary lang="nl">[COLOR ghostwhite]Treadstone[/COLOR]'s  Add-on Repository</summary>
+        <summary lang="en">TREADSTONE's SCI LEVEL-5 Official Repository</summary>
+		<description lang="en">To access the following files in here,  you need SCI-5 Clearance granted by CIA (SAD).
+    Special Activities Division can declassify this file to give you full access.
 
-		<description lang="en">To enter this storage SCI Level 5 clearence is required by CIA, Special Activities Devision
-		This storage provides 3th party additions which are running under Treadstone and Blackbriar Operations.</description>
-		<description lang="nl">Om deze opslag te betredem, is SCI Level 5 clearence vereist door CIA, Special Activities Devision
-        Deze opslag omvat toevoegingen van 3de partijten die worden vertegenwoordigd door Treadstone en Blackbrair operaties.</description>
-
-		<disclaimer lang="en">Operation Treadstone 71 does not host or share any content, nor are they affiliated with any of the content of providers.</disclaimer>
-		<disclaimer lang="nl">Operation Treadstone 71 host of deelt geen inhoud, noch zijn ze verbonden met de inhoud van providers.</disclaimer>
-
+     "I know who I am. I remember everything".
+     </description>
+		<disclaimer lang="en">Treadstone does not host or share any content, nor are they affiliated with any of the content of providers.</disclaimer>
 		<platform>all</platform>
 			<assets>
-				<icon>resources/art/icon.png</icon>
-				<fanart>resources/art/fanart.jpg</fanart>
-				<screenshot>resources/screenshots/01.jpg</screenshot>
-				<screenshot>resources/screenshots/02.jpg</screenshot>
-				<screenshot>resources/screenshots/03.jpg</screenshot>
+				<icon>icon.png</icon>
+				<fanart>fanart.jpg</fanart>
+				<screenshot>resources/art/screenshots/1.png </screenshot>
+				<screenshot>resources/art/screenshots/2.png </screenshot>
+				<screenshot>resources/art/screenshots/3.png </screenshot>
+				<screenshot>resources/art/screenshots/4.png </screenshot>
+				<screenshot>resources/art/screenshots/5.png </screenshot>
 			</assets>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
 		<website>https://tr3adst.one</website>
 		<source>https://explorer.tr3adst.one</source>
 		<contact>https://www.facebook.com/groups/TR3ADSTONE</contact>
 		<news>SCI LEVEL-5 @TR3ADSTONE</news>
-		<email>admin@tr3adst.one</email>
     </extension>
 </addon>
 </addons>
