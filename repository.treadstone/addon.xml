@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.treadstone" name="[B][COLOR ghostwhite]TREADSTONE[/COLOR][/B]" version="8.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
+<addon id="repository.treadstone" name="[B][COLOR ghostwhite]TREADSTONE's Repository[/COLOR][/B]" version="8.8.17" provider-name="[COLOR ghostwhite]Bourne[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 	</requires>
